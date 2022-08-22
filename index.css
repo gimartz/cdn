@@ -2885,11 +2885,29 @@ h6 {
   background-repeat: no-repeat;
 }
 
-.section.three.s4 {
-  background-image: url("https://witransaf.com/wp-content/uploads/2022/08/slidetwo-1.png");
+.section.three.s3 {
+  background-image: url("https://witransaf.com/wp-content/uploads/2022/08/slido.png");
 }
 
 .section.four {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url("https://witransaf.com/wp-content/uploads/2022/08/do.png");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.section.nine {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2982,7 +3000,7 @@ h6 {
 .paragraph-8 {
   margin-bottom: 4px;
   color: #d9e1e0;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 400;
 }
 
@@ -3027,7 +3045,7 @@ h6 {
   grid-column-gap: 80px;
   grid-row-gap: 16px;
   -ms-grid-columns: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr ;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
 }
