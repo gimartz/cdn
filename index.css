@@ -2911,19 +2911,16 @@ h6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-image: url("https://witransaf.com/wp-content/uploads/2022/08/shutterstock_93439939.jpg");
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
+
+  margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: "Righteous", cursive;
+min-height: 100vh;
+background-color: #a9c9ff;
+background-image: linear-gradient(180deg, #a9c9ff 0%, #ffbbec 100%);
 }
 
 .section.five {
